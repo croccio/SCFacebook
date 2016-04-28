@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.dependency "FBSDKCoreKit"
-  s.dependency "FBSDKShareKit"
-  s.dependency "FBSDKLoginKit"
+  s.dependency "FBSDKCoreKit", "4.9.1"
+  s.dependency "FBSDKShareKit", "4.9.1"
+  s.dependency "FBSDKLoginKit", "4.9.1"
 
 end
